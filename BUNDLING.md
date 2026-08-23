@@ -115,7 +115,8 @@ Finally, `cbundle` writes a single output file (`bundle.js`) that contains:
 ```js
 (function (modules, entryId) { /* runtime */ })({
   0: { deps: { "./math": 1 }, fn: function (...) { /* index.js */ } },
-  1: { deps: {}, fn: function (...) { /* math.js */ } }
+  1: { deps: {}, fn: function (...) { /* math.js */ } },
+  // ... ids 2, 3, 4 omitted for brevity
 }, 0);
 ```
 
