@@ -3,6 +3,9 @@
 A small CommonJS module bundler written in C99, with no dependencies beyond
 libc and POSIX.
 
+For a practical walkthrough of what happens during bundling, see
+[`BUNDLING.md`](./BUNDLING.md).
+
 It reads an entry `.js` file, follows every `require("...")` call it can
 resolve statically, and writes one self-contained JavaScript file that runs in
 Node or a browser.
