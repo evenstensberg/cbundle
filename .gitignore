@@ -1,0 +1,7 @@
+build/
+tests/tmp/
+*.o
+*.d
+
+# generated bundles
+/bundle.js
